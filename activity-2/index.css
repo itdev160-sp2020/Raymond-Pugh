@@ -1,0 +1,36 @@
+body,html{
+    height:100%;
+    background:pink;
+
+}
+
+.container{
+    border:solid red;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    padding-top:10px;
+}
+.pig{
+    width:25%;
+    margin:auto;
+}
+
+.container a{
+    margin:auto;
+}
+
+#simple-table{
+    /* border:solid red; */
+    width:50%;
+    margin:10px auto auto auto;
+    display:table;
+    border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+#complex-table{
+    width:75%;
+    margin:10px auto auto auto;
+}
