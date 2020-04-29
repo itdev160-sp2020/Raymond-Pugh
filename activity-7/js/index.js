@@ -39,6 +39,8 @@ function addTask(event){
     }
 }
 
+// console.log(addTask);
+
 function completeTask(event){
 
     var taskEl=event.target;
